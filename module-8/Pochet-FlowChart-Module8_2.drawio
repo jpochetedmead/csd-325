@@ -1,0 +1,112 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:135.0) Gecko/20100101 Firefox/135.0" version="26.0.16">
+  <diagram name="Page-1" id="gaupkIVxcJWbu7JA6zRy">
+    <mxGraphModel dx="1434" dy="663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YZ0c6q0Ra0fN3Rygu9mC-1" value="Start Program" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="203" y="20" width="114" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="YZ0c6q0Ra0fN3Rygu9mC-2" value="Load student.json using json.load()" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="130" y="184" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="YZ0c6q0Ra0fN3Rygu9mC-3" value="File Exists &amp; Valid JSON?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="146" y="312" width="228" height="228" as="geometry" />
+        </mxCell>
+        <mxCell id="YZ0c6q0Ra0fN3Rygu9mC-4" value="Display Error &amp; Exit" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1290" width="200" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="YZ0c6q0Ra0fN3Rygu9mC-5" value="Call print_students() to Display Original List" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="270" y="614" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="YZ0c6q0Ra0fN3Rygu9mC-6" value="Call add_student() to Create New Student" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="270" y="742" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="YZ0c6q0Ra0fN3Rygu9mC-7" value="Append New Student (Julio Pochet) to List" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="270" y="870" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="YZ0c6q0Ra0fN3Rygu9mC-8" value="Call print_students() to Display Updated List" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="270" y="998" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="YZ0c6q0Ra0fN3Rygu9mC-9" value="Call save_students() to Save Updated List using json.dump()" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="270" y="1126" width="260" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="YZ0c6q0Ra0fN3Rygu9mC-10" value="Display &#39;student.json updated&#39; Message" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="270" y="1278" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="YZ0c6q0Ra0fN3Rygu9mC-11" value="End Program" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="207" y="1406" width="105" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="YZ0c6q0Ra0fN3Rygu9mC-12" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="YZ0c6q0Ra0fN3Rygu9mC-1" target="YZ0c6q0Ra0fN3Rygu9mC-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YZ0c6q0Ra0fN3Rygu9mC-13" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="YZ0c6q0Ra0fN3Rygu9mC-2" target="YZ0c6q0Ra0fN3Rygu9mC-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YZ0c6q0Ra0fN3Rygu9mC-14" value="Yes" style="curved=1;startArrow=none;endArrow=block;exitX=0.96;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="YZ0c6q0Ra0fN3Rygu9mC-3" target="YZ0c6q0Ra0fN3Rygu9mC-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="577" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YZ0c6q0Ra0fN3Rygu9mC-15" value="No" style="curved=1;startArrow=none;endArrow=block;exitX=0.04;exitY=1;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="YZ0c6q0Ra0fN3Rygu9mC-3" target="YZ0c6q0Ra0fN3Rygu9mC-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="120" y="577" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YZ0c6q0Ra0fN3Rygu9mC-16" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0;entryY=0.22;rounded=0;" edge="1" parent="1" source="YZ0c6q0Ra0fN3Rygu9mC-4" target="YZ0c6q0Ra0fN3Rygu9mC-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="120" y="1381" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YZ0c6q0Ra0fN3Rygu9mC-17" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="YZ0c6q0Ra0fN3Rygu9mC-5" target="YZ0c6q0Ra0fN3Rygu9mC-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YZ0c6q0Ra0fN3Rygu9mC-18" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="YZ0c6q0Ra0fN3Rygu9mC-6" target="YZ0c6q0Ra0fN3Rygu9mC-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YZ0c6q0Ra0fN3Rygu9mC-19" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="YZ0c6q0Ra0fN3Rygu9mC-7" target="YZ0c6q0Ra0fN3Rygu9mC-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YZ0c6q0Ra0fN3Rygu9mC-20" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="YZ0c6q0Ra0fN3Rygu9mC-8" target="YZ0c6q0Ra0fN3Rygu9mC-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YZ0c6q0Ra0fN3Rygu9mC-21" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="YZ0c6q0Ra0fN3Rygu9mC-9" target="YZ0c6q0Ra0fN3Rygu9mC-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YZ0c6q0Ra0fN3Rygu9mC-22" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=1;entryY=0.22;rounded=0;" edge="1" parent="1" source="YZ0c6q0Ra0fN3Rygu9mC-10" target="YZ0c6q0Ra0fN3Rygu9mC-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="1381" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YZ0c6q0Ra0fN3Rygu9mC-23" value="Julio Pochet Edmead" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="30" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YZ0c6q0Ra0fN3Rygu9mC-24" value="Module 8.2 Assignment:&lt;br&gt;JSON Practice" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="425" y="70" width="150" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,32 @@
+[
+    {
+        "first_name": "Ellen",
+        "last_name": "Ripley",
+        "student_id": 45604,
+        "email": "eripley@gmail.com"
+    },
+    {
+        "first_name": "Arthur",
+        "last_name": "Dallas",
+        "student_id": 45605,
+        "email": "adallas@gmail.com"
+    },
+    {
+        "first_name": "Joan",
+        "last_name": "Lambert",
+        "student_id": 45714,
+        "email": "jlambert@gmail.com"
+    },
+    {
+        "first_name": "Thomas",
+        "last_name": "Kane",
+        "student_id": 68554,
+        "email": "tkane@gmail.com"
+    },
+    {
+        "first_name": "Julio",
+        "last_name": "Pochet",
+        "student_id": 99999,
+        "email": "jpochet@gmail.com"
+    }
+]
